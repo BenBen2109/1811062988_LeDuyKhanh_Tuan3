@@ -18,6 +18,7 @@ namespace _1811062988_LeDuyKhanh_Tuan3.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
+            //Ben
         }
     }
 }
