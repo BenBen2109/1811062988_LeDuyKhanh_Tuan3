@@ -182,6 +182,10 @@
     <Compile Include="Migrations\202107111421311_CreateTableCourse.Designer.cs">
       <DependentUpon>202107111421311_CreateTableCourse.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107111426571_PopulateCategoryTable.cs" />
+    <Compile Include="Migrations\202107111426571_PopulateCategoryTable.Designer.cs">
+      <DependentUpon>202107111426571_PopulateCategoryTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Category.cs" />
@@ -270,6 +274,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202107111421311_CreateTableCourse.resx">
       <DependentUpon>202107111421311_CreateTableCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107111426571_PopulateCategoryTable.resx">
+      <DependentUpon>202107111426571_PopulateCategoryTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
