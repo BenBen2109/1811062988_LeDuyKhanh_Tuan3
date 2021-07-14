@@ -12,6 +12,7 @@ namespace _1811062988_LeDuyKhanh_Tuan3.ViewModels
         public string Date { get; set; }
         public string Time { get; set; }
         public byte Category { get; set; }
+        
         public IEnumerable<Category> Categories { get; set; }
         public DateTime GetDateTime()
         {
