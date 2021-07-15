@@ -10,9 +10,8 @@ namespace _1811062988_LeDuyKhanh_Tuan3.Migrations
             Sql("INSERT INTO CATEGORIES(ID,NAME) VALUES(1,'Develepment')");
             Sql("INSERT INTO CATEGORIES(ID,NAME) VALUES(2,'Business')");
             Sql("INSERT INTO CATEGORIES(ID,NAME) VALUES(3,'Marketing')");
-
         }
-
+        
         public override void Down()
         {
         }

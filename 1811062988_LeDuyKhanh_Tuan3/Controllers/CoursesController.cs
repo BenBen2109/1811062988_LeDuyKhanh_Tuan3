@@ -18,6 +18,7 @@ namespace _1811062988_LeDuyKhanh_Tuan3.Controllers
         {
             _dbContext = new ApplicationDbContext();
         }
+        //GET: Courses
         [Authorize]
         public ActionResult Create()
         {
@@ -28,7 +29,7 @@ namespace _1811062988_LeDuyKhanh_Tuan3.Controllers
             };
             return View(viewModel);
         }
-        // GET: Courses
+        
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]

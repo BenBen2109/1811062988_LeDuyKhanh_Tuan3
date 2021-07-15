@@ -12,7 +12,6 @@ using _1811062988_LeDuyKhanh_Tuan3.Models;
 
 namespace _1811062988_LeDuyKhanh_Tuan3.Controllers
 {
-   
     [Authorize]
     public class AccountController : Controller
     {
@@ -152,7 +151,7 @@ namespace _1811062988_LeDuyKhanh_Tuan3.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Name = model.Name};
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Name = model.Name };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

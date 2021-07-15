@@ -32,9 +32,9 @@ namespace _1811062988_LeDuyKhanh_Tuan3.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set 
-            { 
-                _signInManager = value; 
+            private set
+            {
+                _signInManager = value;
             }
         }
 
@@ -333,7 +333,7 @@ namespace _1811062988_LeDuyKhanh_Tuan3.Controllers
             base.Dispose(disposing);
         }
 
-#region Helpers
+        #region Helpers
         // Used for XSRF protection when adding external logins
         private const string XsrfKey = "XsrfId";
 
@@ -384,6 +384,6 @@ namespace _1811062988_LeDuyKhanh_Tuan3.Controllers
             Error
         }
 
-#endregion
+        #endregion
     }
 }

@@ -7,13 +7,13 @@ namespace _1811062988_LeDuyKhanh_Tuan3.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class AddNameColumnToApplicationUser : IMigrationMetadata
+    public sealed partial class PopulateCategoryTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddNameColumnToApplicationUser));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(PopulateCategoryTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "202107150959394_AddNameColumnToApplicationUser"; }
+            get { return "202107151144027_PopulateCategoryTable"; }
         }
         
         string IMigrationMetadata.Source
