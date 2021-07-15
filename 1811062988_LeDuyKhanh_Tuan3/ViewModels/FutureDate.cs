@@ -13,7 +13,7 @@ namespace _1811062988_LeDuyKhanh_Tuan3.ViewModels
         {
             DateTime dateTime;
             var isVaild = DateTime.TryParseExact(Convert.ToString(value),
-            "dd/M/yyyy",
+            "dd/MM/yyyy",
             CultureInfo.CurrentCulture,
             DateTimeStyles.None,
             out dateTime);
