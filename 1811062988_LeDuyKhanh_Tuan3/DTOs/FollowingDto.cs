@@ -5,8 +5,8 @@ using System.Web;
 
 namespace _1811062988_LeDuyKhanh_Tuan3.DTOs
 {
-    public class AttendanceDto
+    public class FollowingDto
     {
-        public int CourseId { get; set; }
+        public string FolloweeId { get; set; }
     }
 }
